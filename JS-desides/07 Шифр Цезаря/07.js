@@ -23,5 +23,5 @@ document.getElementById('out2').oninput = function() {
         code = code - offset;
         out += String.fromCharCode(code);
     }
-    document.getElementById('out3cd').innerHTML = out;
+    document.getElementById('out3').innerHTML = out;
 }
